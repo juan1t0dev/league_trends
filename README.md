@@ -1,0 +1,1 @@
+Analyze and explore league of legends meta trends through a user-friendly interface
