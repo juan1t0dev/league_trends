@@ -1,0 +1,33 @@
+assets:
+  champion:
+    splash: https://ddragon.leagueoflegends.com/cdn/img/champion/splash/{champion_name}_{skin_number}.jpg
+    loading: https://ddragon.leagueoflegends.com/cdn/img/champion/loading/{champion_name}_{skin_number}.jpg
+    square: https://ddragon.leagueoflegends.com/cdn/{version}/img/champion/{champion_name}.png
+    passive: https://ddragon.leagueoflegends.com/cdn/{version}/img/passive/{file_name}.png
+    ability: https://ddragon.leagueoflegends.com/cdn/{version}/img/spell/{file_name}.png
+  items: https://ddragon.leagueoflegends.com/cdn/{version}/img/item/{item_id}.png
+  summoner_spells: https://ddragon.leagueoflegends.com/cdn/{version}/img/spell/{summoner_name}.png
+  profile_icons: https://ddragon.leagueoflegends.com/cdn/{version}/data/img/profileicon/{profile_icon_id}.png
+  minimaps: https://ddragon.leagueoflegends.com/cdn/{minimaps_version}/img/map/map{map_id}.png
+  sprites: https://ddragon.leagueoflegends.com/cdn/{version}/img/sprite/{file_name}.png
+  scoreboard_icons:
+    champions: https://ddragon.leagueoflegends.com/cdn/{scoreboard_icons_version}/img/ui/champion.png
+    items: https://ddragon.leagueoflegends.com/cdn/{scoreboard_icons_version}/img/ui/items.png
+    minions: https://ddragon.leagueoflegends.com/cdn/{scoreboard_icons_version}/img/ui/minion.png
+    score: https://ddragon.leagueoflegends.com/cdn/{scoreboard_icons_version}/img/ui/score.png
+    spells: https://ddragon.leagueoflegends.com/cdn/{scoreboard_icons_version}/img/ui/spells.png
+constants:
+  versions: https://ddragon.leagueoflegends.com/api/versions.json
+  languages: https://ddragon.leagueoflegends.com/cdn/languages.json
+  regions: https://ddragon.leagueoflegends.com/realms/na.json
+  seasons: https://static.developer.riotgames.com/docs/lol/seasons.json
+  queues: https://static.developer.riotgames.com/docs/lol/queues.json
+  maps: https://static.developer.riotgames.com/docs/lol/maps.json
+  game_modes: https://static.developer.riotgames.com/docs/lol/gameModes.json
+  game_types: https://static.developer.riotgames.com/docs/lol/gameTypes.json
+data:
+  champions: https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/champion.json
+  specific_champion: https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/champion/{champion_name}.json
+  items: https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/item.json
+  summoner_spells: https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/summoner.json
+  profile_icons: https://ddragon.leagueoflegends.com/cdn/{version}/data/{language}/profileicon.json
