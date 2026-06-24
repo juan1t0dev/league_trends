@@ -219,6 +219,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Extracted data from APIs
-output/
-src/riot_api/data/
+# Data outputs
+data/
